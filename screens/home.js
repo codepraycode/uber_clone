@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 import React from 'react';
 import tw from 'twrnc';
 
+
 // Widgets
 import SafeAreaView from '../widgets/safeArea';
 
@@ -13,6 +14,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
       <View style={tw`p-5`}>
+        
         <Image 
           source={{
             uri:'https://links.papareact.com/gzs',
